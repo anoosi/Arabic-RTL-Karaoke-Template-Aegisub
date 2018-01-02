@@ -33,7 +33,7 @@
 
 local tr = aegisub.gettext
 
-script_name = tr"karaoke template RTL"
+script_name = tr"Karaoke Templater RTL"
 script_description = tr"سكربت الكاريوكي العربي 2، تعديل غسان السقاف، تحديث أنس الكبيسي"
 script_author = "Niels Martin Hansen, modified by Ghasan Al-Sakkaf, Updated By Anas Alkubaisi"
 script_version = "2.1.7"
