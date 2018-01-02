@@ -33,7 +33,7 @@
 
 local tr = aegisub.gettext
 
-script_name = tr"Apply Arabic Karaoke v2 By Anas"
+script_name = tr"karaoke template RTL"
 script_description = tr"سكربت الكاريوكي العربي 2، تعديل غسان السقاف، تحديث أنس الكبيسي"
 script_author = "Niels Martin Hansen, modified by Ghasan Al-Sakkaf, Updated By Anas Alkubaisi"
 script_version = "2.1.7"
@@ -868,5 +868,5 @@ function macro_can_template(subs)
 	return false
 end
 
-aegisub.register_macro(tr"Apply Arabic Karaoke v2 By Anas", tr"سكربت الكاريوكي العربي 2، تعديل غسان السقاف، تحديث أنس الكبيسي", macro_apply_templates, macro_can_template)
+aegisub.register_macro(tr"Apply karaoke template RTL", tr"سكربت الكاريوكي العربي 2، تعديل غسان السقاف، تحديث أنس الكبيسي", macro_apply_templates, macro_can_template)
 aegisub.register_filter(tr"Arabic Karaoke v2 By Anas", tr"Apply karaoke effect templates to the subtitles.\n\nSee the help file for information on how to use this.", 2000, filter_apply_templates)
