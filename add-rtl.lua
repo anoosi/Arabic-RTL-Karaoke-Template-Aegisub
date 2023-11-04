@@ -1,8 +1,8 @@
 local tr = aegisub.gettext
 
-script_name = tr"Add RTL تحويل النص من اليمين لليسار"
-script_description = tr"سكربت لتحويل النصوص من اليمين لليسار، تصميم أنس الكبيسي"
-script_author = "أنس الكبيسي"
+script_name = tr"Add RTL
+script_description = tr
+script_author
 script_version = "1"
 
 
